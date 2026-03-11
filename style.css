@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Estilizando o cabecalho*/
+.cabecalho {
+    background-color: #005995; /*cor de fundo*/
+    color: white; /*cor da letra*/
+    display: flex; /*alinhando os itens*/
+    align-items: center; /*alinhamento vertical*/ 
+    justify-content: space-between; /*alinhamento horizontal*/
+    padding: 20px; /*espaço interno*/
+}
+
+/*Estilizando o texto principal*/
+.div-h1 h1 {
+    font-size: 40px; /*tamanho da letra*/
+    font-weight: 700; /*grossura da letra*/
+}
+
+.div-img {
+    width: 200px; /*tamanho da img*/ 
+}
+
+.ul-lista li {
+    list-style: none; /*tirando o estilo da lista*/
+}
+
+.div-lista ul {
+    display: flex; /*Deixando lado a lado*/
+    gap: 20px; /*espaçamente entre as LI*/
+}
+
+.ul-lista a {
+    text-decoration: none; /*Removendo o estilo da A*/
+    color: white; /*cor da letra*/
+    font-size: 20px; /*tamanho da letra*/
+    font-weight: 700; /*grossura da letra*/
+}
+/*Fim do cabecalho*/
+
+/*Estilizando a primeira section*/
+.section-01 {
+    background-color: #5b9ddf;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.img-section01 {
+    width: 500px;
+}
+
+.div-02 h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text-subtitulo {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.div-02 p {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/*Estilizando a segunda section*/
+.section-02 div {
+    width: 300px;
+    height: 300px;
+}
+
+.section-02 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 50px;
+    background-color: #5b9ddf;
+}
+
+.carro-01 {
+    background-image: url(imagens/2026\ Porsche\ Macan\ GTS.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carro-02 {
+    background-image: url(imagens/boxter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carro-03 {
+    background-image: url(imagens/911.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carro-04 {
+    background-image: url(imagens/gt3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
