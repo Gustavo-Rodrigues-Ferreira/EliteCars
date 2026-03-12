@@ -48,6 +48,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row-reverse;
+    padding: 100px;
 }
 
 .img-section01 {
@@ -87,6 +88,11 @@
     gap: 20px;
     padding: 50px;
     background-color: #5b9ddf;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 100px;
+    text-transform: uppercase;
 }
 
 .carro-01 {
@@ -115,4 +121,81 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/*Estilizando a terceira section*/
+
+.section-03 {
+    background-image: url(imagens/estoque.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-03 button {
+    background-color: #005995;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 25px;
+    cursor: pointer;
+    transform: translate(50, -50);
+}
+
+.section-03 button:hover {
+    background-color: #206ebd;
+}
+
+/*Estilizando a quarta section*/
+.section-04 {
+    background-color: #5b9ddf;
+    color: white;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.div-h2 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.div-p {
+    font-size: 30px;
+} 
+
+.botao {
+    background-color: #005995;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 25px;
+    cursor: pointer;
+    transform: translate(50, -50);
+}
+
+.botao:hover {
+    background-color: #206ebd;
+}
+
+footer {
+    background-color: #005995;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
