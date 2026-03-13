@@ -1,36 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 * {
-    margin: 0px;
+    margin: 0px; 
     padding: 0px;
-    background-color: #5b9ddf;
-    color: white;
-    font-weight: 700;
+    background-color: #005995; /*cor de fundo do site*/
+    color: white; /*cor das letras*/
+    font-weight: 700; /*grossura das letras*/
+    font-family: "IBM Plex Sans", sans-serif; /*estilo da fonte*/   
 }
 
-main {
+/*estilizando o formulario*/
+.form {
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    display: flex; /*deixar lado lado*/
+    align-items: center; /*centralizando vertical*/
+    justify-content: center; /*centralizando horizontal*/
+    flex-direction: column; /*deixando em coluna*/
+    gap: 10px; /*espaçamento*/
+}
+
+/*estilizando as label*/
+label {
+    font-size: 20px; /*tamanho da fonte*/
+    font-weight: 700; /*grossura da letra*/
+}
+
+/*estilizando os input*/
+.insira {
+    background-color: #5b9ddf; /*cor de fundo*/
+    color: white; /*cor da letra*/
+    border: none; /*removendo a borda*/
+    border-radius: 20px; /*deixando a borda redonda*/ 
 }
 
 h1 {
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 30px; /*tamanho do titulo*/
+    font-weight: 700; /*grossura da letra*/
+    text-transform: uppercase; /*deixando em cx alta*/
 }
 
 h2 {
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 25px; /*tamanho do subtitulo*/
+    font-weight: 700; /*grossura da letra*/
+    text-transform: uppercase; /*deixando em cx alta*/
 }
 
-label {
-    font-size: 30px;
-    font-weight: 700;
-}
 .botao {
-    padding: 20px;
-    width: 30%;
-    font-size: 20px;
-    font-weight: 700;
+    margin-left: 40px; /*deixando no centro*/
+    width: 100px; /*tamanho da caixa*/
+    background-color: #5b9ddf; /*cor de fundo*/
+    border: none; /*removendo a borda*/
+    border-radius: 20px; /*deixando a borda redonda*/
+}
+
+fieldset {
+    display: flex; /*deixando lado a lado*/
+    align-items: center; /*alinhamento vertical*/ 
+    flex-direction: column; /*alinhamento horizontal*/
+    padding: 40px; /*espaçamento interno*/ 
+    border-radius: 20px; /*deixando a borda redonda*/
+}
+
+.campo {
+    margin-bottom: 20px; /*dando um espaço para centralizar*/
 }

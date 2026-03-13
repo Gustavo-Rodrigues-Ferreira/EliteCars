@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
+    font-family: "IBM Plex Sans", sans-serif;   
 }
 
 /*Estilizando o cabecalho*/
@@ -42,158 +45,143 @@
 
 /*Estilizando a primeira section*/
 .section-01 {
-    background-color: #5b9ddf;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row-reverse;
-    padding: 100px;
+    background-color: #5b9ddf; /*cor de fundo*/
+    color: white; /*cor da letra*/
+    display: flex; 
+    align-items: center; /*alinhamento vertical*/
+    justify-content: space-evenly; /*alinhamento horizontal*/
+    flex-direction: row-reverse; /*direcao dos itens*/
+    padding: 100px; /*espaço interno*/
 }
 
+/*estilizando a imagem*/
 .img-section01 {
-    width: 500px;
+    width: 500px; /*tamanho da imagem*/
 }
 
 .div-02 h2 {
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
+    color: #005995; /*cor da letra*/
+    font-size: 40px; /*tamanho da fonte*/
+    font-weight: 700; /*grossura da letra*/
+    text-transform: uppercase; /*deixando em cx alta*/ 
+    text-align: center; /*centrallizando o texto*/
 }
 
 .text-subtitulo {
-    font-size: 25px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
+    font-size: 25px; /*tamanho da fonte*/
+    font-weight: 700; /*grossura da letra*/
+    text-transform: uppercase; /*deixando em cx alta*/ 
+    text-align: center; /*centralizando o texto*/
 }
 
 .div-02 p {
-    font-size: 20px;
-    font-weight: 700;
-    text-align: center;
+    font-size: 20px; /*tamanho da letra*/
+    font-weight: 700; /*grossura da letra*/
+    text-align: center; /*centralizando o texto*/
 }
 
 /*Estilizando a segunda section*/
-.section-02 div {
-    width: 300px;
-    height: 300px;
-}
 
 .section-02 {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 20px;
-    padding: 50px;
-    background-color: #5b9ddf;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 100px;
-    text-transform: uppercase;
+    align-items: center; /*alinhamento vertical*/
+    justify-content: space-evenly; /*alinhamento horizontal*/
+    gap: 20px; /*espaçamento*/
+    padding: 50px; /*espaço interno*/
+    background-color: #5b9ddf; /*cor de fundo*/
+    color: white; /*cor das letras*/
+    font-size: 20px; /*tamanho da fonte*/
+    font-weight: 700; /*grossura da letra*/
+    text-transform: uppercase; /*deixando em cx alta*/
 }
 
-.carro-01 {
-    background-image: url(imagens/2026\ Porsche\ Macan\ GTS.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.section-02 h2 {
+    text-align: center; /*centralindo o texto*/
+    margin: 20px; /*dando um espaço*/
 }
 
-.carro-02 {
-    background-image: url(imagens/boxter.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.carros {
+    display: flex; /*deixando lado a lado*/
+    justify-content: center;/*centralizando horizontal*/
+    gap: 60px; /*espalo entre as div*/
 }
 
-.carro-03 {
-    background-image: url(imagens/911.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+.carros img {
+    width: 250px; /*tamanho das imagens*/
 
-.carro-04 {
-    background-image: url(imagens/gt3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 /*Estilizando a terceira section*/
 
 .section-03 {
-    background-image: url(imagens/estoque.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 200px;
-    display: flex;
+    background-image: url(imagens/estoque.webp); /*cor de fundo*/
+    background-position: center; /*centralizando a imagem*/
+    background-repeat: no-repeat; /*para a img não se repetir*/
+    background-size: cover; /*cobrir todo o espaço*/
+    background-attachment: fixed; /*para deixar fixo*/
+    padding: 200px; /*espaco da section*/
+    display: flex;  
     align-items: center;
     justify-content: center;
 }
 
 .section-03 button {
-    background-color: #005995;
-    color: white;
-    border: none;
-    padding: 20px;
-    font-size: 20px;
-    font-weight: 700;
-    border-radius: 25px;
-    cursor: pointer;
-    transform: translate(50, -50);
+    background-color: #005995; /*cor de fundo*/
+    color: white; /*cor da letra*/
+    border: none; /*removendo a borda*/
+    padding: 20px; /*espaço interno*/
+    font-size: 20px; /*tamanho da letra*/
+    font-weight: 700; /*grossura da letra*/
+    border-radius: 25px; /*deixando a borda redonda*/
+    cursor: pointer; /*mundando o icone do mouse para a mãozinha*/
+    transform: translate(50, -50); /*para mudar a cor de fundo quando passar o mouse*/
 }
 
 .section-03 button:hover {
-    background-color: #206ebd;
+    background-color: #206ebd; /*cor que fica quando passar o mouse em cima do botão*/
 }
 
 /*Estilizando a quarta section*/
 .section-04 {
-    background-color: #5b9ddf;
-    color: white;
-    padding: 100px;
-    display: flex;
+    background-color: #5b9ddf; /*cor de fundo*/
+    color: white; /*cor da letra*/
+    padding: 100px; /*espaço interno*/
+    display: flex; 
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 100px; /*espaço entre as div*/
 }
 
 .div-h2 {
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
+    font-size: 40px; /*tamanho da letra*/
+    text-align: center; /*centralizando o texto*/
+    text-transform: uppercase; /*deixa em cx alta*/
 }
 
 .div-p {
-    font-size: 30px;
+    font-size: 30px; /*tamanho da letra*/
 } 
 
 .botao {
-    background-color: #005995;
-    color: white;
-    border: none;
-    padding: 20px;
-    font-size: 20px;
-    font-weight: 700;
-    border-radius: 25px;
-    cursor: pointer;
-    transform: translate(50, -50);
+    background-color: #005995; /*cor de fundo*/
+    color: white; /*cor da letra*/
+    border: none; /*removendo a borda*/
+    padding: 20px; /*espaço interno*/
+    font-size: 20px; /*tamanho da letra*/
+    font-weight: 700; /*grossura*/
+    border-radius: 25px; /*deixando redondo*/
+    cursor: pointer; /*mundando o icone do mouse para a mãozinha*/
+    transform: translate(50, -50); /*para mudar a cor de fundo quando passar o mouse*/
 }
 
 .botao:hover {
-    background-color: #206ebd;
+    background-color: #206ebd; /*cor que fica quando passar o mouse em cima do botão*/
 }
 
 footer {
-    background-color: #005995;
-    color: white;
-    font-size: 20px;
+    background-color: #005995; /*cor de fundo*/
+    color: white; /*cor da letra*/
+    font-size: 20px; /*tamanho da letra*/
     display: flex;
     align-items: center;
     justify-content: center;
