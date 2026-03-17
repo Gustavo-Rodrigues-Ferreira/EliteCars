@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     font-family: "IBM Plex Sans", sans-serif;   
+    scroll-behavior: smooth;
 }
 
 /*Estilizando o cabecalho*/
@@ -13,7 +14,11 @@
     display: flex; /*alinhando os itens*/
     align-items: center; /*alinhamento vertical*/ 
     justify-content: space-between; /*alinhamento horizontal*/
-    padding: 20px; /*espaço interno*/
+    padding: 10px; /*espaço interno*/
+    position: sticky; /*Faz com que o elemento fique grudado na tela quando o usuario rolar a pagina*/
+    top: 0; /*Defique que o elemento ficara preso aon topo da tela (0px de distancia do topo)*/
+    left: 0; /*define o alinhamento a esquerda da pagina, mantendo 0px de distancia*/
+    z-index: 1; /*controla a sobreposicao do elemento sobre outros elementos da pagina*/
 }
 
 /*Estilizando o texto principal*/
@@ -23,7 +28,7 @@
 }
 
 .div-img {
-    width: 200px; /*tamanho da img*/ 
+    width: 100px; /*tamanho da img*/ 
 }
 
 .ul-lista li {
@@ -41,6 +46,11 @@
     font-size: 20px; /*tamanho da letra*/
     font-weight: 700; /*grossura da letra*/
 }
+
+.ul-lista a:hover {
+    color: black;
+}
+
 /*Fim do cabecalho*/
 
 /*Estilizando a primeira section*/
@@ -106,9 +116,16 @@
     gap: 60px; /*espalo entre as div*/
 }
 
+
 .carros img {
     width: 250px; /*tamanho das imagens*/
+    cursor: pointer;
 
+}
+
+.carros img:hover {
+    box-shadow: 10px 10px 10px #005995;
+    transition: all 0.3s ease-in-out;
 }
 
 /*Estilizando a terceira section*/
