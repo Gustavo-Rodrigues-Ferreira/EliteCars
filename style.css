@@ -47,8 +47,9 @@
     font-weight: 700; /*grossura da letra*/
 }
 
-.ul-lista a:hover {
-    color: black;
+.ul-lista a:hover { /*(hover serve para fazer a transição ao passar o mouse)*/
+    transition: 0.1s; /*tempo que vai aparecer*/
+    border-bottom: 2px solid black; /*cor que vai aparecer*/
 }
 
 /*Fim do cabecalho*/
@@ -124,8 +125,8 @@
 }
 
 .carros img:hover {
-    box-shadow: 10px 10px 10px #005995;
-    transition: all 0.3s ease-in-out;
+    box-shadow: 10px 10px 10px #005995; /*cor da sombra*/
+    transition: all 0.3s ease-in-out; /*velocidade que a sombra vai aparecer*/
 }
 
 /*Estilizando a terceira section*/
