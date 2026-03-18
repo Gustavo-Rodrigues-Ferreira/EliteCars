@@ -49,7 +49,7 @@
 
 .ul-lista a:hover { /*(hover serve para fazer a transição ao passar o mouse)*/
     transition: 0.1s; /*tempo que vai aparecer*/
-    border-bottom: 2px solid black; /*cor que vai aparecer*/
+    border-bottom: 2px solid white; /*cor que vai aparecer*/
 }
 
 /*Fim do cabecalho*/
@@ -68,6 +68,11 @@
 /*estilizando a imagem*/
 .img-section01 {
     width: 500px; /*tamanho da imagem*/
+}
+
+.img-section01:hover {
+    box-shadow: 10px 10px 10px #005995; /*cor da sombra*/
+    transition: all 0.3s ease-in-out; /*velocidade que a sombra vai aparecer*/
 }
 
 .div-02 h2 {
@@ -194,6 +199,8 @@
 
 .botao:hover {
     background-color: #206ebd; /*cor que fica quando passar o mouse em cima do botão*/
+    box-shadow: 10px 10px 10px #005995; /*cor da sombra*/
+    transition: all 0.3s ease-in-out; /*velocidade que a sombra vai aparecer*/
 }
 
 footer {
@@ -204,4 +211,20 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.whatsap img { /*alterando tamanho do icon whatsa*/
+    width: 40px;
+}
+
+.whatsap img:hover {
+    width: 45px;
+    transition: 0,3s;
+}
+
+ /*div q guarda o icon whats*/
+.whatsap {
+    position: fixed; /*fica fixo na posição*/
+    right: 25px; /*posiciona a direita (25px)*/
+    bottom: 20px; /*posiciona a 25px do bottom*/
 }
